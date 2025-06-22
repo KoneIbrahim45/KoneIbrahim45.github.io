@@ -11,7 +11,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
+  padding: 20px 90px;
 }
 
 .logo {
@@ -48,16 +48,18 @@ body {
 /* Dropdown */
 .dropdown-menu {
   position: absolute;
+  max-width: 100%;
+  min-width: 165px ;
+  background-color: #111;
+  padding: 10px 0;
+  list-style: none;
+  z-index: 1000; /* très important */
+  width: 200px;
   top: 100%;
   left: 0;
-  background-color: #030561;
   display: none;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  min-width: 160px;
-  border-radius: 0 0 5px 5px;
-  z-index: 999;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.5);
 }
 
 .dropdown:hover .dropdown-menu {
@@ -90,6 +92,26 @@ footer {
   padding: 20px;
   background-color: #111;
   color: #999;
+  font-size: 0.9em;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  flex: 1;
+}
+
+/* Empêche le footer de remonter */
+footer {
+  margin-top: auto;
+  background-color: #111;
+  color: #aaa;
+  text-align: center;
+  padding: 20px;
   font-size: 0.9em;
 }
 
