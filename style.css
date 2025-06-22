@@ -1,13 +1,15 @@
 body {
   margin: 0;
-  font-family: 'Segoe UI', sans-serif;
-  background-color: #111;
+  padding: 0;
+  background-image: url(https://img.freepik.com/photos-gratuite/ballon-football-se-desintegrant-espace-copie_23-2150169914.jpg?semt=ais_hybrid&w=740);
   color: #fff;
-  overflow-x: hidden;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;;
 }
 
 header {
-  background: #e30613;
+  background: #557eca;
   padding: 2rem;
   text-align: center;
   animation: fadeInDown 1s ease-out;
@@ -27,7 +29,7 @@ header p {
 }
 
 nav {
-  background: #000;
+  background: #10cc48;
   display: flex;
   justify-content: center;
   gap: 1rem;
@@ -70,7 +72,7 @@ section {
 }
 
 section h2 {
-  color: #e30613;
+  color: #1ae045;
 }
 
 footer {
