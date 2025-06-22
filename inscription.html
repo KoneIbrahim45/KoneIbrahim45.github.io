@@ -2,9 +2,10 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Ibrahim Breaking</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Inscription - Ibrahim Breaking</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="styleinscription.css" />
   <script defer src="script.js"></script>
 </head>
 <body>
@@ -28,10 +29,26 @@
     </nav>
   </header>
 
-  <main>
-    <section class="hero">
-      <h1>Bienvenue sur Ibrahim Breaking</h1>
-      <p>Toute l'actualité du football, des vidéos exclusives et bien plus !</p>
+  <main class="content">
+    <section class="signup-section">
+      <h1>Inscription</h1>
+      <p>Rejoignez la communauté Ibrahim Breaking en vous inscrivant ici.</p>
+
+      <form action="#" method="post" class="signup-form">
+        <label for="username">Nom d'utilisateur :</label>
+        <input type="text" id="username" name="username" required />
+
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="password">Mot de passe :</label>
+        <input type="password" id="password" name="password" required />
+
+        <label for="confirm-password">Confirmer le mot de passe :</label>
+        <input type="password" id="confirm-password" name="confirm-password" required />
+
+        <button type="submit">S'inscrire</button>
+      </form>
     </section>
   </main>
 

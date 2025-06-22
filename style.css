@@ -7,7 +7,7 @@ body {
 
 /* Navbar */
 .navbar {
-  background-color: #111;
+  background-color: #6f94e4;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -41,7 +41,7 @@ body {
 }
 
 .nav-menu a:hover {
-  background-color: #333;
+  background-color: #060475;
   border-radius: 5px;
 }
 
@@ -50,7 +50,7 @@ body {
   position: absolute;
   top: 100%;
   left: 0;
-  background-color: #222;
+  background-color: #030561;
   display: none;
   list-style: none;
   padding: 0;
@@ -92,3 +92,4 @@ footer {
   color: #999;
   font-size: 0.9em;
 }
+
