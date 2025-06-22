@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url(https://img.freepik.com/photos-gratuite/ballon-football-se-desintegrant-espace-copie_23-2150169914.jpg?semt=ais_hybrid&w=740);
+  background-color: #9acfe7;
   color: #fff;
   background-size: cover;
   background-position: center;
@@ -72,7 +72,7 @@ section {
 }
 
 section h2 {
-  color: #1ae045;
+  color: #000000;
 }
 
 footer {
